@@ -1,0 +1,284 @@
+body {
+  font-family: 'Muli', sans-serif;
+  background-attachment: scroll;
+
+}
+a {
+  color: #11151c;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+a:hover, a:focus {
+  color: #FAD7A0 ;
+  text-decoration: none;
+  outline: none;
+}
+
+/* NAVIGATION */
+#nav-bottom {
+background-color:#E59866  ;
+  border: 1px solid black ;
+  margin: 20px;
+  
+}
+	/* menu */
+.nav-menu {
+  position: relative;
+  text-align: center;
+  float: none;
+  font-size: 25px;
+  
+
+  
+}
+
+.nav-menu>li {
+  float: none;
+  display: inline-block;
+}
+
+.nav-menu>li>a {
+  display: block;
+  padding: 25px 25px;
+  line-height: 30px;
+  font-weight: 700;
+
+}
+
+/* dropdown */
+
+.nav-menu li.has-dropdown {
+  position: relative;
+}
+
+.nav-menu li.has-dropdown>a:after {
+  font-family: 'FontAwesome';
+  content: "\f0d7";
+  margin-left: 5px;
+}
+
+.nav-menu li.has-dropdown>.dropdown {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  text-align: center;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.nav-menu li.has-dropdown:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-menu li.has-dropdown>.dropdown .dropdown-body {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-top: 2px solid#E59866  ;
+}
+
+.dropdown .dropdown-list li {
+  border-bottom: 1px solid#E59866 ;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dropdown .dropdown-list li a {
+  font-size: 15px;
+  display: block;
+  padding: 10px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* style for homepage */
+ .mangeh{
+
+  float: right;
+  padding-right: 15px;
+  font-size: 50px;
+  color:#E59866;
+  font-weight: bold;
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.mangep{
+   text-align-last: right;
+  text-align: justify;
+  font-size: 25px;
+   padding-top: 25px;
+}
+
+
+
+.img-responsive {
+  width: auto;
+  height: 100%;
+  padding-top:200px;
+}
+
+.mange-img{
+  padding-top:40px ;
+   height:50%;
+    width:auto;
+  }
+
+  .setfooter{
+    text-align: center;
+ 
+    color: black;
+    font-weight: bold;
+ 
+  }
+
+.mangep>li{
+    margin: 5px;
+    padding: 5px;
+    list-style: square;
+    direction: rtl;
+    font-size:25px;
+    font-weight:bold ;
+    color: #E59866;
+    list-style-position: inside;
+   
+  }
+
+  /* style for symptomp page */
+
+  .jumbotron{
+    background-color: #FDEBD0 ;
+    box-sizing: initial;
+
+  }
+
+  .symptomu{
+
+   text-align-last: right;
+  text-align: justify;
+  font-size: 20px;
+   padding-top: 20px;
+   margin: 5px;
+   padding: 5px;
+   direction: rtl;
+
+
+  }
+
+  li
+ { 
+ color: #E59866;  /* bullet */
+ list-style: decimal; 
+ padding-top: 10px;
+} 
+ 
+     
+ span { 
+color: black;
+font-weight: lighter; }   /* text */
+
+ul{
+  color: #000;
+}
+
+
+.setu{
+  padding: 15px;
+}
+.setu>li{
+   text-align-last: right;
+  font-size: 20px;
+    list-style: square;
+   direction: rtl;
+   font-weight: bold;
+   list-style-position: inside;
+   color: #45B39D ;
+   
+
+ 
+}
+
+.jumbotron .arrange{
+  padding-top:10px;
+  color:#CA6F1E;
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+ 
+
+}
+
+/* style for healling */
+
+.arrangehealing{
+  text-align-last: right;
+  text-align: justify;
+  font-size: 25px;
+   padding: 10px;
+
+}
+
+h5{
+  color:#45B39D;
+  font-size:40px;
+  font-weight: bold;
+}
+
+.row{
+  padding-top: 100px;
+  font-size: 15px;
+}
+
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0.1, 0.1, 0.1, 0.6); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color:#FDFEFE  ;
+  font-size: 15px;
+}
+
+.card-text{
+  text-align: justify;
+  text-align-last: right;
+  font-size: 15px;
+}
+
+.jumbotron p{
+  font-size: 18px;
+}
+
+.img-treatment{
+  width: auto;
+  height:80%;
+  padding-top:100px;
+}
+
+
+
+
+/* about */
+
+.jumbotron .desgin{
+ background-color:#FDEBD0;
+  font-size:25px;
+padding: 20px;
+ text-align:justify;
+ text-align-last: right;
+ font-weight: bold;  
+}
