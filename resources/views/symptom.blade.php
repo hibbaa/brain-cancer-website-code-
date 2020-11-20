@@ -8,7 +8,7 @@
  <!-- first  section  -->
 
 <div class="container">
-    <div class="jumbotron">
+    <div >
         <h1  class="text-center" style="color:#45B39D;font-weight:bold;">أعراض سرطان الدماغ</h1>
         <p  style="font-size:30px;text-align: justify;text-align-last: right;padding-top:15px;">
             يوجد مجموعة متنوعة من الأعراض لسرطان الدماغ من الممكن أن تؤدي الأورام الحميدة إلى 
@@ -127,9 +127,9 @@
 <!-- section three -->
 <!-- first row --> 
 <div class="container">
-    <div class="jumbotron">
+   
 
-  <p class="text-center" style="font-size:35px;font-weight:bold;color:#45B39D;padding-top:30px;">   : أعراض تظهر بحسب موقع الورم  </p>
+  <p class="text-center" style="font-size:35px;font-weight:bold;color:#45B39D;padding-top:50px;">   : أعراض تظهر بحسب موقع الورم  </p>
         <div class="row">
             <div class="col-lg-4 ">
             

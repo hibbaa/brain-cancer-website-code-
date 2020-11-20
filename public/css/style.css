@@ -1,7 +1,38 @@
-body {
+/* body {
   font-family: 'Muli', sans-serif;
   background-attachment: scroll;
 
+} */
+
+/* login page */
+.labellogin{
+  color: #CA6F1E;
+  font-weight: bold;
+margin-right: 50px;
+ 
+  
+}
+.textmiddle {
+  padding: 30px;
+  color: #CA6F1E;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+}
+.inputlogin{
+  color: #CA6F1E;
+  font-weight: bold;
+  margin-left: 70px;
+}
+
+
+.forgit{
+  float: right;
+  color: #CA6F1E;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-right: 100px;
 }
 a {
   color: #11151c;
@@ -17,10 +48,11 @@ a:hover, a:focus {
 
 /* NAVIGATION */
 #nav-bottom {
-background-color:#E59866  ;
-  border: 1px solid black ;
-  margin: 20px;
-  
+
+  margin: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #CA6F1E;
 }
 	/* menu */
 .nav-menu {
@@ -159,11 +191,7 @@ background-color:#E59866  ;
 
   /* style for symptomp page */
 
-  .jumbotron{
-    background-color: #FDEBD0 ;
-    box-sizing: initial;
 
-  }
 
   .symptomu{
 
@@ -211,7 +239,7 @@ ul{
  
 }
 
-.jumbotron .arrange{
+.arrange{
   padding-top:10px;
   color:#CA6F1E;
   text-align: center;
@@ -230,38 +258,166 @@ ul{
    padding: 10px;
 
 }
-
-h5{
-  color:#45B39D;
-  font-size:40px;
-  font-weight: bold;
-}
-
-.row{
-  padding-top: 100px;
-  font-size: 15px;
+#more {display: none;
 }
 
 
+#mybtn{
+  background-color: #DC7633; 
+  text-align:center;
+  padding: 5px 15px;
+  font-size:20px;
+  color: white;
+  border: black;
+}
 
 /* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0.1, 0.1, 0.1, 0.6); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color:#FDFEFE  ;
-  font-size: 15px;
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0.1, 0.1, 0.2, 0.6);          /* this adds the "card" effect */
+  padding: 15px;
+  margin-top: 40px;
 }
 
 .card-text{
   text-align: justify;
   text-align-last: right;
-  font-size: 15px;
+  font-size: 20px;
+}
+ .card-title{
+   color: #DC7633;
+ }
+
+ /* style for button read more */
+
+ #more2 {display: none;
+ }
+ 
+#mybtn2{
+  background-color: #DC7633; 
+  text-align:center;
+  padding: 5px 15px;
+  font-size:20px;
+  color: white;
+  border: black;
 }
 
-.jumbotron p{
-  font-size: 18px;
+#more3 {display: none;
 }
+
+#mybtn3{
+ background-color: #DC7633; 
+ text-align:center;
+ padding: 5px 15px;
+ font-size:20px;
+ color: white;
+ border: black;
+}
+
+
+#more4 {display: none;
+}
+
+#mybtn4{
+ background-color: #DC7633; 
+ text-align:center;
+ padding: 5px 15px;
+ font-size:20px;
+ color: white;
+ border: black;
+}
+#disqus_thread{
+  padding-top: 70px;
+
+}
+
+
+
+/* style for create post */
+.form-group{
+  text-align: right;
+  padding: 15px;
+  font-size:20px;
+}
+.form-control{
+text-align: right;
+padding: 15px;
+font-size:20px;
+}
+.setbutton{
+  margin: 30px;
+  text-align:center;
+   padding: 10px 30px;
+   font-size:20px;
+   background-color: #DC7633; 
+   color: white;
+   border: black;
+
+
+}
+.buttonindex{
+  margin: 30px;
+  text-align:center;
+  padding: 10px 30px;
+  font-size:20px;
+  background-color: #DC7633; 
+  color: white;
+  border: black;
+
+}
+/* style for create story  */
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* style for index story */
+.page-footer{
+  text-align:center;
+  font-size:20px;
+  color:#DC7633;
+  font-weight: bold;
+}
+
+.noadd{
+  text-align:center;
+  padding: 100px;
+  font-size:40px;
+  color:#DC7633;
+  font-weight: bold;
+}
+
+.img-fluid{
+  width:100%;
+  height: auto;
+}
+
+
 
 .img-treatment{
   width: auto;
@@ -274,11 +430,17 @@ h5{
 
 /* about */
 
-.jumbotron .desgin{
- background-color:#FDEBD0;
+.desgin{
   font-size:25px;
 padding: 20px;
  text-align:justify;
  text-align-last: right;
- font-weight: bold;  
+ font-weight: bold;
+ border: #DC7633 dotted;  
+ margin-top: 60px;
+ padding: 40px;
+
 }
+
+
+

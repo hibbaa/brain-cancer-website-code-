@@ -1,6 +1,10 @@
 @include('include.header');
 @include('include.head');
 
+
+
+<body>
+
 <body>
 <!-- first section -->
 
@@ -110,5 +114,9 @@
 
 </div> 
 
+
+</body>
+
+</div>
 
 </body>

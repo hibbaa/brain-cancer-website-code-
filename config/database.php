@@ -43,9 +43,9 @@ return [
              
             'host' => '127.0.0.1',
             'driver'    => 'mysql',
-            'database'  => 'blog',
-            'username'  => 'muhammed',
-            'password'  => 'muhammed',
+            'database'  => 'braincancer',
+            'username'  => 'cancer',
+            'password'  => '12345678',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
